@@ -159,11 +159,11 @@
     "homebrew-cask": {
       "flake": false,
       "locked": {
-        "lastModified": 1747929399,
-        "narHash": "sha256-VHmPiWpwGW8g3PGVkeQytTXbm+HBLNT6XQQeVGomUcM=",
+        "lastModified": 1747930430,
+        "narHash": "sha256-21nQ7Ii6MbRkEpxGC7nCGvgk5yrvxUF6Csk2wgRpJT4=",
         "owner": "homebrew",
         "repo": "homebrew-cask",
-        "rev": "2ed6d531c500a8469cf4789a4b8710ef187cd2f2",
+        "rev": "9f5747962bd9f6d471bec79ddcad3c49c76df6a0",
         "type": "github"
       },
       "original": {
@@ -320,11 +320,11 @@
     "secrets": {
       "flake": false,
       "locked": {
-        "lastModified": 1747930468,
-        "narHash": "sha256-4q/EOY+fbmxSKdV0VCC2/uoYLoSjimpMDF6LOACzhvA=",
+        "lastModified": 1747934409,
+        "narHash": "sha256-v7N2Dz338P7/aptrn4mTX9zz7OllcfrjdZq9A+jC14I=",
         "ref": "refs/heads/main",
-        "rev": "e7b39f5df2021d208c783fc5fee9eb17b15eff5b",
-        "revCount": 2,
+        "rev": "722afb1201a59e6893023619f06d43c20d35ef60",
+        "revCount": 4,
         "type": "git",
         "url": "ssh://git@github.com/err53/nix-secrets.git"
       },

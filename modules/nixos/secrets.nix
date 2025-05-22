@@ -16,14 +16,14 @@ let user = "jason"; in
   #       If you change the key name, you'll need to update the SSH configuration in shared/home-manager.nix
   #       so Github reads it correctly.
 
-  #
-  # age.secrets."github-ssh-key" = {
-  #   symlink = false;
-  #   path = "/home/${user}/.ssh/id_github";
-  #   file =  "${secrets}/github-ssh-key.age";
-  #   mode = "600";
-  #   owner = "${user}";
-  #   group = "wheel";
-  # };
+  
+  age.secrets."github-ssh-key" = {
+    symlink = false;
+    path = "/home/${user}/.ssh/id_github";
+    file =  "${secrets}/github-ssh-key.age";
+    mode = "600";
+    owner = "${user}";
+    group = "wheel";
+  };
 
 }

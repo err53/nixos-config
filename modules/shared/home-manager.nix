@@ -78,7 +78,7 @@ let name = "Jason Huang";
 	    editor = "vim";
         autocrlf = "input";
       };
-      commit.gpgsign = true;
+      # commit.gpgsign = true;
       pull.rebase = true;
       rebase.autoStash = true;
     };

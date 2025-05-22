@@ -40,7 +40,7 @@ in
     # This message is safe to ignore. (https://github.com/dustinlyons/nixos-config/issues/83)
 
     masApps = {
-      "1password" = 1333542190;
+      # "1password" = 1333542190;
       "wireguard" = 1451685025;
     };
   };
@@ -84,17 +84,17 @@ in
         { path = "/System/Applications/Photo Booth.app/"; }
         { path = "/System/Applications/TV.app/"; }
         { path = "/System/Applications/Home.app/"; }
+        # {
+        #   path = toString myEmacsLauncher;
+        #   section = "others";
+        # }
+        # {
+        #   path = "${config.users.users.${user}.home}/.local/share/";
+        #   section = "others";
+        #   options = "--sort name --view grid --display folder";
+        # }
         {
-          path = toString myEmacsLauncher;
-          section = "others";
-        }
-        {
-          path = "${config.users.users.${user}.home}/.local/share/";
-          section = "others";
-          options = "--sort name --view grid --display folder";
-        }
-        {
-          path = "${config.users.users.${user}.home}/.local/share/downloads";
+          path = "${config.users.users.${user}.home}/Downloads";
           section = "others";
           options = "--sort name --view grid --display stack";
         }

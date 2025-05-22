@@ -14,6 +14,7 @@ _:
 
   # Utility Tools
   "syncthing"
+  "1password"
 
   # Entertainment Tools
   "vlc"
